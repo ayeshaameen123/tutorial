@@ -1,0 +1,113 @@
+
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*body {*/
+/*    background-color: #f1f1f1;*/
+/*    padding: 20px;*/
+/*    font-family: Arial;*/
+/*}*/
+
+/* Center website */
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+/*.row {*/
+/*    margin: 10px -16px;*/
+/*}*/
+
+/* Add padding BETWEEN each column */
+/*.row,*/
+/*.row > .column {*/
+/*    padding: 8px;*/
+/*}*/
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33%;
+    display: none; /* Hide all elements by default */
+}
+
+ /*Clear floats after rows*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+ /*Style the buttons */
+.botn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.botn:hover {
+    background-color: #ddd;
+}
+
+.botn.active {
+    background-color: #bd2130;
+    color: white;
+}
+.bttn:hover
+{
+    background-color: #bd2130;
+    color: white;
+}
+/*testimonials*/
+.card {
+    cursor: pointer
+}
+
+.hd {
+    font-size: 25px;
+    font-weight: 550
+}
+
+.card.hover,
+.card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+}
+
+
+.card-title {
+    font-weight: 600
+}
+
+button.focus,
+button:focus {
+    outline: 0;
+    box-shadow: none !important
+}
+
+.ft {
+    margin-top: 25px
+}
+
+.chk {
+    margin-bottom: 5px
+}
+
+.rck {
+    margin-top: 20px;
+    padding-bottom: 15px
+}
